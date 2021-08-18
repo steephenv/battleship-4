@@ -173,7 +173,7 @@
 
     function shareGame(g) {
         switchState('share');
-        link.setAttribute('value', 'https://battle-2.herokuapp.com/play/' + g);
+        link.setAttribute('value', 'https://cheepans-battleship.herokuapp.com/play/' + g);
         playButton.onclick = function(){play(g)};
         if (!isOS())
             copy();
