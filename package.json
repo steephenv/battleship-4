@@ -1,7 +1,7 @@
 {
-  "name": "WarVessels",
+  "name": "WarBattleships",
   "version": "0.3.0",
-  "description": "War Vessels in browser",
+  "description": "War Battleships in browser",
   "engines": {
     "node": "12.x"
   },
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/manassarpatwar/WarVessels"
+    "url": "https://github.com/steephenv/battleship-4"
   },
   "keywords": [
     "node",

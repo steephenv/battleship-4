@@ -1,7 +1,7 @@
 {
-  "name": "WarVessels",
-  "author": "ManasSarpatwar",
+  "name": "WarBattleships",
+  "author": "SteephenVarghese",
   "description": "Online multiplayer Battleship Clone",
-  "repository": "https://github.com/manassarpatwar/WarVessels",
+  "repository": "https://github.com/steephenv/battleship-4",
   "keywords": ["node", "express", "heroku", "game", "Battleship", "socket.io"]
 }

@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>War Vessels</title>
-    <meta name='author' content="Manas Sarpatwar">
-    <meta name="description" content="War vessels in browser">
+    <title>War Battleship</title>
+    <meta name='author' content="Sttephen Varghese">
+    <meta name="description" content="War Battleships in browser">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="public/css/main.css" />
     <link rel="stylesheet" type="text/css" href="public/css/balloon.css" />
@@ -16,7 +16,7 @@
 
 <body>
     <main>
-        <a href="https://github.com/manassarpatwar/WarVessels" aria-label="View source on GitHub">
+        <a href="https://github.com/steephenv" aria-label="View source on GitHub">
             <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
                 aria-hidden="true">
                 <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -42,7 +42,8 @@
             <div id="splash">
                 <div id ='title'>
                     <div class = 'title-word'>WAR</div>
-                    <div class = 'title-word'>&nbsp;&nbsp;&nbsp;&nbsp;VESSELS</div>
+                    <div class = 'title-word'>-------</div>
+                    <div class = 'title-word'>&nbsp;&nbsp;&nbsp;&nbsp;BATTLESHIPS</div>
                 </div>
                 <button onclick="switchState('mode')" style = "transform: translateY(-10%);" class="fill" id="multiplayer">
                     <p class='text'>Multiplayer</p>
@@ -172,7 +173,7 @@
 
     function shareGame(g) {
         switchState('share');
-        link.setAttribute('value', 'https://war-vessels.herokuapp.com/play/' + g);
+        link.setAttribute('value', 'https://battle-2.herokuapp.com/play/' + g);
         playButton.onclick = function(){play(g)};
         if (!isOS())
             copy();
