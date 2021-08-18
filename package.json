@@ -1,0 +1,35 @@
+{
+  "name": "WarVessels",
+  "version": "0.3.0",
+  "description": "War Vessels in browser",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "heroku-ssl-redirect": "0.0.4",
+    "socket.io": "^2.3.0",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "request": "^2.88.2",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manassarpatwar/WarVessels"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
